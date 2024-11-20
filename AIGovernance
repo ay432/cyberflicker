@@ -1,0 +1,116 @@
+Module 1
+NLP
+Problem solving
+Image recognition
+Decision making (autonomous)
+
+Discriminative AI: classifies data, but not generating. Sentiment analysis, named entity recognition,
+    image classification and character recognition.
+    Target classes. Logistic Regression, K nearest neighbors, support vector machines, Gradient Boosted Decision Trees,
+    CNN, LSTM. Large input transformers.
+Generative AI: resembling training data. GANs (generator-discriminator), diffusion models (recover data from noise),
+    autoregressive models (oldest, statistics roots, generating sequence data by modeling probability of next element,
+    element selected randomly, neural network component LSTM and transformers, autoregressive text model use auto
+    alignment based on human feedback, using reinforcement learning).
+
+Zero-shot learning (ZSL) is a machine learning technique that allows a model to recognize and categorize new concepts
+    without being trained on examples of those concepts
+
+Foundation generative models: GPT, PaLM, Llama
+Key tech:
+    Transformers, learn patterns in text data
+    Diffusion, better then GANs, iterative construction through denoising
+
+Issue: data collection privacy
+Sources: web scrapping (can include personal information from social networks),
+    data produced by interacting from chat bots.
+
+Risk: surveillance, breaches, data manipulation, deep fakes, data protection violation,
+    discrimination, disinformation, intellectual infringements.
+
+General-purpose vs specialized AI:
+Aspect	                General-Purpose AI	                    Specialized AI
+Scope	                Broad and multi-domain	                Narrow and domain-specific
+Data Requirements	    Diverse and generalized datasets	    Specific and domain-focused datasets
+Adaptability	        High	                                Low (outside the domain)
+Performance	            Moderate in niche tasks	                High in targeted tasks
+Development Time	    Shorter (pre-trained, plug-and-play)	Longer (requires custom training)
+
+Module 2
+AI Governance: imposition of frameworks, rules, standards, legal reqs,
+    policies and best practices to govern and monitor AI activities.
+October 2023: Safe Secure and Trustworthy use of AI act (EU AI laws are first)
+
+Key drivers: responsible innovation, standardizing AI - efficiency,
+    solutions and decision making - compliance, reduce risk of regulatory action - trust.
+
+Gartner's AI TRiSM (Trust, Risk and Security Management): framework focusing on risk mitigation, compliance, data privacy laws.
+    1. Explainability and Model monitoring: deep understanding, verify performance, biases, ensuring user transparency.
+    2. Model operations: processes and systems for managing throughout life cycle, underlay infrastructure,
+       system governance and system classification.
+    3. AI application security: essential against cyber threats.
+    4. Model privacy: ensures the protection of data, collect, store and use of data (sensitive industries),
+       data purpose limitation, data minimization, storage limitation.
+
+Unregulated or uncontrolled AI, shadow AI, risk to security, ethics and compliance, malicious use, bias,
+    discrimination, bias, hallucinatory response, leakage of data.
+    Agents and Assistants, Insights and Automation, New Category of Apps, Code (new types of attack)
+
+5 Step Path to AI Governance:
+    1. Discover and Catalog AI models: overview of AI usage by identifying all models
+       used in public clouds, private env., third-party apps, purposes, training data, architecture, inputs and outputs.
+    2. Asses risk and classify AI models: in predevelopment and development, risk mitigation and evaluation,
+       description, use, limitations, ethics, copyright, energy consumption, maliciousness. Decide which models to use,
+       block, or additional guardrails.
+    3. Map Data + AI Flows: training, tuning, associate data sources and systems, data processing,
+       SaaS application enables privacy, compliance, security, identify dependencies, potential points of failure.
+       Different levels of visibility in Governance and AI
+    4. Implement Data + AI Control: establish controls for security and confidentiality, privacy of data,
+       reduction or anonymization technics, caution against attacks and malicious external use, misconfig,
+       LLM firewall protects against OWASP top 10, NIST AI RMF Framework, data injection and exfiltration.
+    5. Comply with Confidence: streamline compliance process, NIST AI RMF and EU AI act.
+       Full transparency into AI systems and risk, mapping of AI data, data controls.
+
+Module 3
+AI Model Discovery: use of enterprise data, rise of shadow AI, identify sanctioned and unsanctioned AI models.
+    Ensure visibility in every aspect, silent data processing in the background.
+
+    Puclic Clouds: Locate and Identify all AI models, all kinds of models active across platforms,
+    SaaS apps: collect details, LLM in marketing automation, fraud detection.
+    Private envs: on premises or private clouds, uncover custom built LLMs.
+
+Model Cards:
+    Model Purpose, Training Data, Model Architecture, Inputs and Outputs (data types), integration Points (feeds, API)
+    Compare, asses, consider for adoption, evaluate personal data use and consumer effects.
+
+Shadow AI detection: developed by teams or departments.
+    Catalog Creation: centralized AI models catalog, comprehensive reference, review and validation
+    Review and Validate: add new models, update model details and remove absolute models => transparency, governance,
+    optimizing resources and leveraging AI across business operations.
+
+Trends in AI Model Discovery:
+    Automated Discovery and Cataloging: use of AI to scan and identify AI models.
+    Standardization and Interoperability: potential for standard protocols for sharing AI model information,
+        easy integration in IT infrastructure.
+    Cross-domain Collaboration: leveraging insights across industries, tools for integrating diverse models
+        while ensuring privacy and proprietary rights.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
