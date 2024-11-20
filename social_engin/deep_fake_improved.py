@@ -7,6 +7,7 @@ from deepfake_face_swap import (
     transformation_from_points, ProcessFace
 )
 
+# https://github.com/emmanueltsukerman/deepface
 
 def load_image(image_path):
     """Load an image from the given path."""
